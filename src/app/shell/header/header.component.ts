@@ -1,8 +1,8 @@
 import { Component, EventEmitter, Output, computed, effect, signal } from '@angular/core';
-import { ObjectValues } from '../../../../types/utils.types';
 import { NgIconComponent, provideIcons } from '@ng-icons/core';
 import { HlmButtonDirective } from '@spartan-ng/ui-button-helm';
 import { matDarkModeOutline, matLightModeOutline } from '@ng-icons/material-icons/outline';
+import { ObjectValues } from '@custom-types/utils.types';
 
 const THEME = {
   DARK: 'Dark',
