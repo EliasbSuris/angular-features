@@ -1,2 +1,5 @@
-<h1 class="text-3xl font-bold underline">Hello world!</h1>
-<router-outlet />
+<aor-header class="theme-aor" (changeTheme)="onChangeTheme($event)"></aor-header>
+<main class="theme-aor bg-content-background main-container p-4">
+  MAIN CONTENT
+  <router-outlet></router-outlet>
+</main>

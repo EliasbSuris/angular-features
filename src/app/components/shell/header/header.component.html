@@ -1,0 +1,16 @@
+<header class="bg-header-background h-header-height">
+  <section class="h-full flex justify-between items-center border-b border-b-background p-4">
+    <h1 class="text-3xl font-bold underline text-foreground">{{ activeTheme() }} Theme Active!</h1>
+    <div class="">
+      @if (isDarkTheme()) {
+        <button hlmBtn variant="dark-theme" size="theme" (click)="setTheme(THEME.LIGHT)">
+          <ng-icon name="matDarkModeOutline" />
+        </button>
+      } @else if (isLightTheme()) {
+        <button hlmBtn variant="light-theme" size="theme" (click)="setTheme(THEME.DARK)">
+          <ng-icon name="matLightModeOutline" />
+        </button>
+      }
+    </div>
+  </section>
+</header>

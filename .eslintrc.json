@@ -24,7 +24,7 @@
           "error",
           {
             "type": "element",
-            "prefix": ["app", "aor"],
+            "prefix": ["app", "aor", "hlm"],
             "style": "kebab-case"
           }
         ],
@@ -32,10 +32,11 @@
           "error",
           {
             "type": "attribute",
-            "prefix": ["app", "aor"],
+            "prefix": ["app", "aor", "hlm"],
             "style": "camelCase"
           }
         ],
+        "@angular-eslint/no-host-metadata-property": 0,
         "@typescript-eslint/naming-convention": 0,
         "@typescript-eslint/ban-tslint-comment": "error",
         "@typescript-eslint/explicit-function-return-type": "error",
@@ -51,7 +52,6 @@
         "@typescript-eslint/prefer-optional-chain": "error",
         "@typescript-eslint/no-duplicate-enum-values": "error",
         "@typescript-eslint/no-useless-empty-export": "error",
-        "@typescript-eslint/member-ordering": "error",
         "@typescript-eslint/prefer-enum-initializers": "error"
       }
     },
